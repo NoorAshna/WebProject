@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.page-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Styles for PatronRegistrationForm */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for PatronCard */
+.patron-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Styles for BorrowHistory */
+.borrow-history-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for Notifications */
+.notification-list {
+  list-style: none;
+  padding: 0;
+}
+
+.urgent-notification {
+  color: red;
+  font-weight: bold;
+}
